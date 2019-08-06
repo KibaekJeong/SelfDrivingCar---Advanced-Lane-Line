@@ -13,13 +13,19 @@
 
 [//]: # (Image References)
 
-[image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image5]: ./examples/color_fit_lines.jpg "Fit Visual"
-[image6]: ./examples/example_output.jpg "Output"
-[video1]: ./project_video.mp4 "Video"
+[image1]: ./writeup_img/before_cali.jpg "before_cali
+[image2]: ./writeup_img/undist_perspective.jpg "Undistorted"
+[image3]: ./writeup_img/roi.jpg "Regions of interest"
+[image4]: ./writeup_img/edge_detection_originaltest*.jpg "Edge_detection_original"
+[image5]: ./writeup_img/edge_detection_edgestest*.jpg "Edge_detection_edge"
+[image6]: ./writeup_img/edge_detection_stacktest*.jpg "Edge_detection_stack"
+[image7]: ./writeup_img/undist_perspective.jpg "Perspective"
+[image8]: ./writeup_img/undist_perspective_output.jpg "Perspective_output"
+[image9]: ./output_images/test2.jpg "Output"
+[video1]: ./output_videos/project_video.mp4 "Video"
+[video2]: ./output_videos/challenge_video.mp4 "Video"
+[video3]: ./output_videos/harder_challenge_video.mp4 "Video"
+
 
 ## Project Description
 
@@ -44,7 +50,10 @@ Afterwards, we will be using color_binary() to check how gradient thresholding a
 
 Here are the image of output:
 
-![alt text][image2]
+![alt text][image4]
+![alt text][image5]
+![alt text][image6]
+
 
 Step 3: Apply perspective transform
 
@@ -53,7 +62,8 @@ First, using straight lane photo from front facing camera, we select coordinates
 
 Below is the perspective transformed image:
 
-![alt text][image3]
+![alt text][image7]
+![alt text][image8]
 
 Step 4: Lane detection
 
@@ -69,12 +79,18 @@ Step 6: Final processing for the Output
 
 Here, we unwarp the processed image for the output using M_inv obtained from Step 3. Also, we add warped image and lane detection image on the side. Final output is as follow:
 
-![alt text][image4]
+![alt text][image9]
 
 Step 7: Use pipeline on videos
 
 We use pipeline on the videos and output is as follow:
 ![alt text][video1]
+
+Here is the challenge video
+![alt text][video2]
+
+Harder challenge video
+![alt text][video3]
 
 
 
@@ -83,6 +99,7 @@ We use pipeline on the videos and output is as follow:
 
 Following project was really challenging for me and it had educated me in various way.
 
+During the video processing, we are able to see some fluctuation and errors.
 Here are the possible improvements that could be made:
 * Perform sanity checks to confirm detected lane line is correct:
   - Check whether left and right lanes have similar curvature and if two lanes have different curvature, take the one with higher pixel value
