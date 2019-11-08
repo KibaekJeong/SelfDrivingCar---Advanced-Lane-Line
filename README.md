@@ -1,6 +1,8 @@
-#**Advanced Lane Finding Project**
+# **Advanced Lane Finding Project**
 ---
-**The goals / steps of this project are the following:**
+**Path Planning Project**
+
+The goals / steps of this project are the following:
 
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 * Apply a distortion correction to raw images.
@@ -13,7 +15,7 @@
 
 [//]: # (Image References)
 
-[image1]: ./writeup_img/before_cali.jpg "before_cali
+[image1]: ./writeup_img/before_cali.jpg "before_cali"
 [image2]: ./writeup_img/undist_perspective.jpg "Undistorted"
 [image3]: ./writeup_img/roi.jpg "Regions of interest"
 [image4]: ./writeup_img/edge_detection_originaltest*.jpg "Edge_detection_original"
