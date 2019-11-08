@@ -1,6 +1,5 @@
 # **Advanced Lane Finding Project**
 ---
-**Path Planning Project**
 
 The goals / steps of this project are the following:
 
@@ -86,13 +85,13 @@ Here, we unwarp the processed image for the output using M_inv obtained from Ste
 Step 7: Use pipeline on videos
 
 We use pipeline on the videos and output is as follow:
-![alt text][video1]
+![Watch the video][video1]
 
 Here is the challenge video
-![alt text][video2]
+![Watch the video][video2]
 
 Harder challenge video
-![alt text][video3]
+![Watch the video][video3]
 
 
 
