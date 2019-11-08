@@ -24,9 +24,9 @@ The goals / steps of this project are the following:
 [image7]: ./writeup_img/undist_perspective.jpg "Perspective"
 [image8]: ./writeup_img/undist_perspective_output.jpg "Perspective_output"
 [image9]: ./output_images/test2.jpg "Output"
-[video1]: ./output_videos/project_video.mp4 "Video"
-[video2]: ./output_videos/challenge_video.mp4 "Video"
-[video3]: ./output_videos/harder_challenge_video.mp4 "Video"
+[video1]: ./output_videos/project_video.mp4 "Video1"
+[video2]: ./output_videos/challenge_video.mp4 "Video2"
+[video3]: ./output_videos/harder_challenge_video.mp4 "Video3"
 ---
 
 ## Project Description
